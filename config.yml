@@ -1,0 +1,14 @@
+---
+# Docker User
+dockerUser: geoffh1977
+dockerUserEmail: geoffh1977@gmail.com
+license: gnu-gpl-v3.0
+
+# Source Build Variables
+buildImageName: alpine
+buildImageVersion: latest
+
+# Final Image Variables
+finalImageName: python3
+finalImageVersion: latest
+appName: Python 3
