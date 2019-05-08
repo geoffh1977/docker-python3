@@ -1,7 +1,6 @@
 #!/bin/bash
 # Update The Git Repository Automatically
 LOCAL_VERSION="latest"
-APP_NAME="$(grep "appName" config.yml | cut -d: -f 2- | sed 's/^ //g')"
 
 # Update Local Repository Tags
 git fetch --tags
